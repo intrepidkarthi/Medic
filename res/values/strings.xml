@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Medic</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="bigo">Sparks Team, 2014</string>
+    <string name="app_id">1404746999800558</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>HOME</item>
+        <item>APPOINTMENT</item>
+        <item>HISTORY </item>
+        <item>RECORDS</item>
+        <item>HOSPITALS</item>
+        <item>RATINGS</item>
+        <item>SETTINGS</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_checkin</item>
+        <item>@drawable/ic_mydeals</item>
+        <item>@drawable/ic_alldeals</item>
+        <item>@drawable/ic_clicknshare</item>
+        <item>@drawable/ic_friends</item>
+        <item>@drawable/ic_settings</item>
+    </array>
+
+    <!-- patient list -->
+    <string-array name="patient_list">
+        <item>Karthik (id - 1111)</item>
+        <item>Koushika (id - 5675)</item>
+        <item>Keerthi (id - 3287)</item>
+        <item>Prasanna (id - 2123)</item>
+        <item>Balaraman (id - 3134)</item>
+        <item>Senthil (id - 3212)</item>
+        <item>Rajinikanth (id - 5332)</item>
+        <item>Preethi (id -2127)</item>
+        <item>Raja (id - 9324)</item>
+        <item>Bavana (id - 3398)</item>
+        <item>Krithika (id - 6532)</item>
+        <item>Krish (id - 9532)</item>
+        <item>Shoba (id - 1532)</item>
+        <item>Anjana (id - 6532)</item>
+        <item>Jasmine (id - 1654)</item>
+        <item>Priyanka (id - 6565)</item>
+        <item>Laxmi (id - 3212)</item>
+    </string-array>
+
+    <!-- doctor list -->
+    <string-array name="doctor_list">
+        <item>Rajasekar</item>
+        <item>Kavya</item>
+        <item>Kishore</item>
+        <item>Krishna</item>
+        <item>Abdul</item>
+        <item>Joseph</item>
+        <item>Jennifer</item>
+        <item>Jessi</item>
+        <item>Stephen</item>
+        <item>Joshna</item>
+        <item>Ananya</item>
+        <item>Supraja</item>
+        <item>Suganya</item>
+    </string-array>
+
+    <!-- drug list -->
+    <string-array name="drug_list">
+        <item>Cetri 10 mg</item>
+        <item>Cetri-Plus 300 and 10</item>
+        <item>Cetriax 1000 mg</item>
+        <item>Cetricon 10 mg</item>
+        <item>Cetrics 500 mg</item>
+    </string-array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

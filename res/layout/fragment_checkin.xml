@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextClock
+        android:id="@+id/clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:gravity="right"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clock"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Patient Name"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autotv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_margin="5dp"
+        
+        android:padding="5dp"
+        android:popupBackground="#ffffff" />
+
+    <TextView
+        android:id="@+id/doctortv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autotv"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Doctor Name"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autodoctortv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doctortv"
+        android:layout_margin="5dp"
+        
+        android:padding="5dp"
+        android:popupBackground="#ffffff" />
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autodoctortv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@color/actionbar_color"
+        android:text="Go"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

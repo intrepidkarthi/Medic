@@ -1,0 +1,19 @@
+<resources>
+
+    <color name="light_grey">#f0f0f0</color>
+    <color name="super_light_grey">#f6f6f6</color>
+    <color name="white">#ffffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="actionbar_color">#03a9f4</color>
+    <color name="home_background">#c3c3c3</color>
+    <color name="background_color">#333333</color>
+    <color name="splash_text_color">#eaeaea</color>
+    <color name="white_color">#ffffff</color>
+    <color name="login_page_text_color">#727272</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#1b1b1b</color>
+    <color name="list_background_pressed">#0f0f0f</color>
+    <color name="list_divider">#313131</color>
+    <color name="counter_text_bg">#e51c23</color>
+    <color name="counter_text_color">#c5c4c4</color>
+</resources>
